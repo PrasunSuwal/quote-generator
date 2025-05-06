@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#quoteBox {
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-size: 18px;
+  min-height: 100px;
+}
+
+.btn-group button,
+.font-size-controls button {
+  margin: 5px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  #quoteBox {
+    font-size: 16px;
+  }
+}
