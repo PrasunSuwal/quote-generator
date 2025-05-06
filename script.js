@@ -76,10 +76,6 @@ document
     }
   });
 
-modeToggle.addEventListener("change", function () {
-  document.body.classList.toggle("dark", modeToggle.checked);
-});
-
 window.onload = function () {
   showQuote();
 };
